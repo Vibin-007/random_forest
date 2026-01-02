@@ -27,9 +27,21 @@ This project implements a machine learning solution to analyze and predict loan 
 
 ## 💻 Usage
 
-Run the Streamlit application:
+Run the combined Streamlit application:
 ```bash
 python -m streamlit run app.py
+```
+
+Or run the specific standalone applications:
+
+### **Classification Model Only** (Predict Loan Status)
+```bash
+python -m streamlit run classification.py
+```
+
+### **Regression Model Only** (Predict Loan Amount)
+```bash
+python -m streamlit run regression.py
 ```
 
 ## 📊 Dataset
